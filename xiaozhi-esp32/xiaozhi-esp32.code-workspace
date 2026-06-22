@@ -1,0 +1,34 @@
+{
+    "folders": [
+        {
+            "path": "xiaozhi-esp32-2.2.4",
+            "name": "xiaozhi-esp32"
+        }
+    ],
+    "settings": {
+        "idf.currentSetup": "C:/Espressif/frameworks/esp-idf-v5.5.4",
+        "idf.toolsPath": "C:/Espressif",
+        "idf.espIdfPath": "C:/Espressif/frameworks/esp-idf-v5.5.4",
+        "idf.pythonInstallPath": "C:/Espressif/python_env/idf5.5_py3.14_env/Scripts/python.exe",
+        "idf.customExtraPaths": "C:/Espressif/tools",
+        "idf.customExtraVars": {
+            "IDF_TOOLS_PATH": "C:/Espressif"
+        },
+        "idf.openOcdConfigs": [
+            "board/esp32s3-builtin.cfg"
+        ],
+        "idf.flashType": "UART",
+        "idf.portWin": "COM30",
+        "idf.buildPath": "${workspaceFolder}/build",
+        "files.associations": {
+            "*.h": "c",
+            "*.cc": "cpp"
+        },
+        "C_Cpp.default.configurationProvider": "espressif.esp-idf-extension"
+    },
+    "extensions": {
+        "recommendations": [
+            "espressif.esp-idf-extension"
+        ]
+    }
+}

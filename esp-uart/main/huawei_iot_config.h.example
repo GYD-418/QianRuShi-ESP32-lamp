@@ -1,0 +1,13 @@
+#pragma once
+
+/* 复制本文件为 huawei_iot_config.h，填入华为云「设备连接」下载的参数 */
+
+#define HUAWEI_IOT_USERNAME   "your_device_id_ESPAPP"
+#define HUAWEI_IOT_PASSWORD   "your_password"
+#define HUAWEI_IOT_CLIENT_ID  "your_client_id"
+#define HUAWEI_IOT_HOST       "xxxx.iot-mqtts.cn-north-4.myhuaweicloud.com"
+#define HUAWEI_IOT_PORT       8883
+#define HUAWEI_IOT_DEVICE_ID  "your_device_id"
+
+/* 物模型服务 ID，与控制台「产品 > 模型定义」中服务名一致（如 skills） */
+#define HUAWEI_IOT_SERVICE_ID "skills"
